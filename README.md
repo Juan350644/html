@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- //Versão 2 -->
+    <!-- //Versão 2 -->
     <header>
       <div class="header-left">
         <h1>Martin Garrix</h1>
@@ -32,11 +32,11 @@
       </figure>
 
       <section class="about">
-        <h2>Hey, meu nome é Martin Garrix</h2>
+        <h2>Hey, meu nome é Martin Garrix</h2>
         <p>
             Martijn Gerard Garritsen, mais conhecido como Martin Garrix
-            é um DJ produtor musical neerlandês. Ele ganhou destaque com o hit "Animals", 
-            que liderou as paradas em mais de dez países e ultrapassou 1 bilhão de visualizações no YouTube. 
+            é um DJ produtor musical neerlandês. Ele ganhou destaque com o hit "Animals", 
+            que liderou as paradas em mais de dez países e ultrapassou 1 bilhão de visualizações no YouTube. 
        
         </p>
         <div class="buttons">
