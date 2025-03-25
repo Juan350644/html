@@ -1,0 +1,169 @@
+# html
+<!DOCTYPE html>
+ <html lang="en">
+   <head>
+     <meta charset="UTF-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <title>Martin Garrix page</title>
+     <link rel="stylesheet" href="style.css" />
+   </head>
+   <body>
+     <!-- //Versão 2 -->
+     <!-- //Versão 2 -->
+     <header>
+       <div class="header-left">
+         <h1>Martin Garrix</h1>
+       </div>
+       <nav class="header-right">
+         <ul>
+           <li><a href="#sobre">Sobre</a></li>
+           <li><a href="#projetos">Projetos</a></li>
+           <li><a href="#contato">Contato</a></li>
+         </ul>
+       </nav>
+     </header>
+ 
+     <main>
+       <figure>
+         <img
+           src="img/Martin Garrix img.jpg"
+           alt="DJ Martin Garrix"
+         />
+         <!-- <figcaption>Imagem do DJ Martin Garrix</figcaption> -->
+       </figure>
+ 
+       <section class="about">
+         <h2>Olá, meu nome é Martin Garrix</h2>
+         
+         <p>
+             Martijn Gerard Garritsen, mais conhecido como Martin Garrix
+             é um DJ produtor musical neerlandês. Ele ganhou destaque com o hit "Animals", 
+             que liderou as paradas em mais de dez países em 2013 e ultrapassou 1 bilhão de visualizações no YouTube. 
+             
+         </p>
+         <div class="buttons">
+           <button class="primary">Projetos</button>
+           <button class="secondary"><b>LinkedIn</b></button>
+         </div>
+       </section>
+ 
+       <section class="projects">
+         <h2><u>Álbuns</u></h2>
+       </section>
+
+       <div class="container">
+        <!-- Card 1 -->
+        <div class="card">
+          <div class="card-left">
+
+            <h3>Animals</h3>
+
+            <p>"Animals" é um instrumental eletrônica do DJ e produtor musical 
+              holandês Martin Garrix, 
+              lançado como download digital em 17 de junho de 2013 no iTunes. 
+              A música rapidamente se tornou popular na cultura EDM, 
+              levando Garrix a se tornar o produtor mais jovem a ter uma música 
+              alcançando o primeiro lugar na loja de música eletrônica Beatport.  
+              A faixa foi um sucesso comercial, alcançando o top dez de várias 
+              paradas de música eletrônica e até mesmo uma das mais populares. 
+              Tornou-se número 1 nas paradas de singles no Reino Unido, Suíça, 
+              França, Bélgica e Estados Unidos.</p>
+
+            <button><b>Ver Projeto</b></button>
+          </div>
+          <div class="card-right">
+            <img src="img/Animals.jpg" alt="Imagem do DJ Martin Garrix">
+          </div>
+        </div>
+      
+        <!-- Card 2 -->
+        <div class="card card-reverse">
+          <div class="card-left">
+            <h3>Poison</h3>
+
+            <p>Martin Garrix lançou sua nova faixa "Poison" como 
+              download gratuito durante o 
+              Amsterdam Dance Event (ADE) em outubro de 2015. 
+              O videoclipe que a acompanha 
+              é uma homenagem ao (ADE), com imagens de seu show esgotado, conferências, 
+              vistas de Amsterdã e muita interação com os fãs.
+              Na mesma semana, ele alcançou o 3º lugar no Top 100 da DJ Mag. 
+              Como agradecimento aos seus fãs, ele decidiu lançar "Poison" 
+              de graça em diversas plataformas de música.</p>
+
+            <button><b>Ver Projeto</b></button>
+          </div>
+          <div class="card-right">
+            <img src="img/Poison.jpeg" alt="Imagem do Boogie">
+          </div>
+        </div>
+      
+        <!-- Card 3 -->
+        <div class="card">
+          <div class="card-left">
+
+            <h3>Spotless</h3>
+            <p>"Spotless" é uma colaboração entre o DJ holandês 
+              Martin Garrix e seu compatriota Jay Hardway, lançada em 2016. 
+              A faixa destaca-se por sua energia vibrante e 
+              melodias cativantes, características marcantes do estilo de 
+              ambos os artistas. Durante o Ultra Music Festival de 2016, 
+              Garrix apresentou "Spotless" em seu set, aumentando a expectativa 
+              dos fãs antes do lançamento oficial. A recepção positiva da faixa 
+              reforçou a posição de Garrix 
+              como um dos principais nomes da música eletrônica contemporânea.​</p>
+
+            <button><b>Ver Projeto</b></button>
+          </div>
+          <div class="card-right">
+            <img src="img/Spotless.jpeg" alt="Imagem do Racionais">
+          </div>
+        </div>
+      
+        <!-- Seção de Contato -->
+        <div class="contato-container">
+          <h2><u>Contato</u></h2>
+          
+          
+          <form>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome"
+            placeholder="Digite seu nome...">
+        
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email"
+            placeholder="Digite seu e-mail...">
+        
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem"
+            placeholder="Digite uma mensagem..."></textarea>
+        
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
+
+        
+
+        <footer>
+          <div class="redes-sociais">
+              <a href="https://www.instagram.com/martingarrix/" target="_blank">
+                  <img src="img/Instagramlogo.png" alt="Instagram">
+              </a>
+              <a href="https://www.linkedin.com/company/martin-garrix" target="_blank">
+                  <img src="img/Linkedinlogo.png" alt="LinkedIn">
+              </a>
+              <a href="https://martingarrix.com/contact/">
+                  <img src="img/Emaillogo.png" alt="E-mail">
+              </a>
+          </div>
+
+          <p class="footer-text">Martin Garrix 2025</p>
+
+      </footer>
+
+      <footer class="footer">
+        <img src="img/Fundo preto.jpg" alt="Onda do Rodapé">
+    </footer>
+    
+      
+      
